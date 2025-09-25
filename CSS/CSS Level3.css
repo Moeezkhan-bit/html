@@ -1,0 +1,38 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+ background-image: url("cat-photo.jpg");
+ background-size: cover;
+ width: 60px;
+}
+
+#box2{
+ background-image: url("Bird-photo.jpg");
+ background-size: cover;
+ width: 60px;
+}
+
+#box3{
+ background-image: url("parrot-photo.jpg");
+ background-size: cover;
+ width: 60px;
+}
+
+#box4{
+ background-image: url("Flower-photo.jpg");
+ background-size: cover;
+ width: 60px;
+}
+
+body{
+    background-image:url("Bg-photo.jpg") ;
+    background-size: cover;
+}
+
+

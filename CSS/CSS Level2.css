@@ -1,0 +1,45 @@
+div{
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: brown;*/
+    border:2px solid brown;
+    /*border-radius: 15px;*/
+    /*padding-left: 10%;
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-bottom: 3%;*/
+    padding:3% 10px 3% 10px;
+    margin: 8%;
+}
+h1{
+    height:50px;
+    width: 200px;
+    background-color: aqua;
+    /*border-style:dotted;
+    border-color: brown;*/
+    text-align: center;
+    border:2px dotted black;
+}
+#One{
+    background-color: rgba(255, 0, 0,0.20);
+    display: inline;
+    margin-top: 15%;
+}
+#Two{
+    background-color: rgba(255,0,0,0.50);
+      display: inline;
+      margin-top: 15%;
+}
+#Three{
+background-color:rgba(255, 0, 0, 1);
+  display: inline;
+  margin-top: 15%;
+}
+h2{
+    background-color:blueviolet;
+    border:double;
+    display: inline;
+}
