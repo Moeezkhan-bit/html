@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0f1111;
+    border-bottom: 2px solid #ccc;
+    padding: 8px 16px;
+}
+
+.nav-left .logo{
+    height: 70px;
+    width: auto;
+}
+
+.nav-center{
+    display: flex;
+    flex: 1;
+    max-width: 500px;
+    margin: 0 20px;
+}
+
+.nav-center input{
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    transition: 0.3s;
+}
+.nav-center input:focus{
+border-color: red;
+box-shadow: 0 0 5px red;
+}
+
+.nav-center button {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-right span {
+margin-left: 15px;
+font-size: 20px;
+color:white;
+cursor: pointer;
+}
+
+.nav-right span:hover {
+    color: blue;
+}
+
+.nav-right i{
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+}
+
+.nav-right i:hover::after{
+    color: red;
+    width: 100%;
+}
+
+.nav-right i::after{
+    content:"";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: 0.3s;
+}
+
+
+
+
