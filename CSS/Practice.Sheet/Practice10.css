@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  size-adjust:initial ;
+}
+
+section {
+  background: rgb(153, 137, 137);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #4a90e2;
+  font-size: larger;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.skills li{
+font-size: large;
+}
+
+.contact  p {
+  font-size: large;
+}
+
+.about p{
+  font-size: large;
+}
